@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/hey"
+    android:background="@drawable/sch1"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditText
+        android:id="@+id/e1"
+        android:layout_width="295dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edit_round"
+        android:backgroundTint="#52FFFFFF"
+        android:drawableLeft="@android:drawable/ic_menu_search"
+        android:hint="Enter food name"
+        android:textAlignment="center"
+        android:textColor="#CFCFCF"
+        android:textColorHint="#CFCFCF"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        />
+
+
+    <Button
+        android:layout_marginTop="100dp"
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="60dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_round"
+        android:backgroundTint="#9F0094FF"
+        android:fontFamily="sans-serif-black"
+        android:text="Search" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        tools:ignore="MissingConstraints"
+        android:layout_marginTop="180dp">
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/recipeList">
+
+        </ListView>
+
+
+    </androidx.core.widget.NestedScrollView>
+</RelativeLayout>

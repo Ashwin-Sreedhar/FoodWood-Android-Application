@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/about"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:fontFamily="sans-serif-black"
+        android:text="About Foodwood"
+        android:textAlignment="center"
+        android:textSize="25dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginTop="60dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Foodwoood is a recipe application made for foodies to invent the ultimate kitchen tool.\nWeather it's finding a recipe or going to store,Foodwood wants to make easier for foodies to do what they love-cook,eat and share!\n\nFoodwood's mission is to be the largest,most powerful and most helpful food application in the world."
+        android:textSize="18dp" />
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="109dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="300dp"
+        android:src="@drawable/chef"
+        android:tint="#555555" />
+
+</LinearLayout>
